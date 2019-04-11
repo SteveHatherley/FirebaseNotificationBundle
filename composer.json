@@ -1,13 +1,13 @@
 {
-    "name": "jp/firebase-notification-bundle",
-    "description": "A Bundle for Symfony2 projects to send notifications for mobile devices through Firebase Cloud Messaging API ",
+    "name": "stevehatherley/firebase-notification-bundle",
+    "description": "A Bundle for Symfony2/3/4 projects to send notifications for mobile devices through Firebase Cloud Messaging API ",
     "type": "symfony-bundle",
     "keywords": [
         "symfony",
         "firebase",
         "notification"
     ],
-    "homepage": "https://github.com/jplarar/FirebaseNotificationBundle",
+    "homepage": "https://github.com/SteveHatherley/FirebaseNotificationBundle",
     "license": "MIT",
     "authors": [
       {
@@ -15,18 +15,24 @@
         "email": "jplarar@gmail.com",
         "homepage": "https://github.com/jplarar",
         "role": "developer"
+      },
+      {
+        "name": "Steve Hatherley",
+        "email": "steve.hatherley@gmail.com",
+        "homepage": "https://github.com/SteveHatherley",
+        "role": "contributor"        
       }
     ],
     "require": {
-      "php": ">=5.6",
-      "symfony/config": "^2.0 || ^3.0",
-      "symfony/dependency-injection": "^2.0 || ^3.0",
-      "symfony/framework-bundle": "^2.0 || ^3.0",
-      "symfony/http-foundation": "^2.0 || ^3.0",
-      "symfony/http-kernel": "^2.0 || ^3.0",
-      "symfony/options-resolver": "^2.0 || ^3.0",
-      "symfony/security": "^2.0 || ^3.0",
-      "symfony/validator": "^2.0 || ^3.0"
+      "php": ">=5.6 || >=7.1",
+      "symfony/config": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/dependency-injection": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/framework-bundle": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/http-foundation": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/http-kernel": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/options-resolver": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/security": "^2.0 || ^3.0 || 4.2.*",
+      "symfony/validator": "^2.0 || ^3.0 || 4.2.*"
     },
     "suggest": {
     },
