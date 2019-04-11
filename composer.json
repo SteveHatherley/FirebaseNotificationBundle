@@ -41,5 +41,10 @@
     "autoload": {
       "psr-0": { "JP\\FirebaseNotificationBundle": "" }
     },
-    "target-dir": "JP/FirebaseNotificationBundle"
+    "target-dir": "JP/FirebaseNotificationBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "symfony-4"
+        }
+    }
 }
